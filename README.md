@@ -18,11 +18,12 @@ A simple Django-based API for processing receipts and calculating reward points 
 ### **1. Submit a Receipt**
 **Endpoint**: `/receipts/process`  
 **Method**: `POST`  
-*
+
+
 ### **1. Get a Receipt points**
 **Endpoint**: `/receipts/{id}/points`  
 **Method**: `GET`  
-*
+
 
 ---
 
