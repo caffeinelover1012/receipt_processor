@@ -1,0 +1,40 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Django specific
+db.sqlite3
+*.sqlite3
+*.log
+/media/
+*.pot
+*.pyc
+*.pyo
+staticfiles/
+.env
+
+# Virtual environments
+.newvenv/
+newvenv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Docker
+*.pid
+build/
+*.log
+docker-compose.override.yml
